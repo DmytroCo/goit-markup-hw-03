@@ -218,6 +218,7 @@ h1, h2, h3, h4, h5, h6, p {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .team-text {
         font-family: Roboto;
@@ -241,6 +242,9 @@ h1, h2, h3, h4, h5, h6, p {
         flex-wrap:wrap;
         row-gap: 48px;
 }
+.photo-portfolio {
+        margin-bottom: 32px;
+}
 .portfolio-section {
         font-family: Roboto;
         font-size: 20px;
@@ -250,6 +254,7 @@ h1, h2, h3, h4, h5, h6, p {
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .portfolio-text {
         font-family: Roboto;
@@ -259,6 +264,7 @@ h1, h2, h3, h4, h5, h6, p {
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
+        margin-bottom: 16px;
 }
 /*end section 4*/
 
