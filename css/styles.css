@@ -8,14 +8,15 @@
 /*reset*/
 ul, ol {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
+        padding-left: 0;
 }
 a {
         text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6, p {
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
 /*container*/
@@ -160,7 +161,7 @@ h1, h2, h3, h4, h5, h6, p {
         gap: 24px;
 }
 .features-li{
-        max-width: calc((100%-72px)/4);
+        max-width: calc((100% - 72px)/4);
 }
 .feature-section {
         font-family: Roboto;
