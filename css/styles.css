@@ -15,7 +15,7 @@ a {
         text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6, p {
-margin: 0;
+        margin: 0;
 }
 
 /*container*/
@@ -27,7 +27,7 @@ margin: 0;
 
 /* header*/
 .page-header {
-border-bottom: 1px solid #e7e9fc;
+        border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
         display: flex;
@@ -53,11 +53,11 @@ border-bottom: 1px solid #e7e9fc;
         color: #4d5ae5;
 }
 .logo {
-margin-right: 76px;
-padding: 24px 0;
+        margin-right: 76px;
+        padding: 24px 0;
 }
 .studio {
-    color:#2e2f42;
+        color:#2e2f42;
 }
 /*header navigation*/
 .contact-list{
@@ -80,8 +80,8 @@ padding: 24px 0;
         color: #404BBF;
 }
 .adress {
-    font-style: normal;
-    margin-left: auto;;
+        font-style: normal;
+        margin-left: auto;;
 }
 .adress-nav {
         display: block;
@@ -102,9 +102,13 @@ padding: 24px 0;
 
 /*section1*/
 .section {
+        padding: 188px 0;
         background-color: #2e2f42;
 }
 .section-main {
+        margin: 0 auto;
+        margin-bottom: 48px;
+        max-width: 496px;
         font-family: Roboto;
         font-size: 56px;
         font-weight: 700;
@@ -123,6 +127,12 @@ padding: 24px 0;
         color: #ffffff;
         opacity: 0px;
         cursor: pointer;
+        display: block;
+        max-width: 169px;
+        border-radius: 4px;
+        height: 56px;
+        border: none;
+        margin: 0 auto;
 }
 .section-button:hover, .section-button:focus {
         background-color:#404BBF;
@@ -130,6 +140,28 @@ padding: 24px 0;
 /*end section1*/
 
 /*section 2*/
+.second-section {
+        padding: 120px 0;
+}
+.invisible-features{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+.features-ul {
+        display: flex;
+        gap: 24px;
+}
+.features-li{
+        max-width: calc((100%-72px)/4);
+}
 .feature-section {
         font-family: Roboto;
         font-size: 20px;
@@ -138,6 +170,7 @@ padding: 24px 0;
         letter-spacing: 0.02em;
         text-align: left;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .feature-text {
         font-family: Roboto;
@@ -152,7 +185,7 @@ padding: 24px 0;
 
 /*section 3*/
 .our-team {
-    background-color: #F4F4FD;
+ background-color: #F4F4FD;
 }
 .color {
     background-color: #FFFFFF;
