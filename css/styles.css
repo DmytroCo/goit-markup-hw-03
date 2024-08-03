@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
-        opacity: 0px;
+        opacity: 0;
         cursor: pointer;
         display: block;
         max-width: 169px;
@@ -198,6 +198,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .phototeam {
         margin-bottom: 32px;
+}
+.container-team {
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-bottom: 32px;
+        padding-right: 16px;
 }
 .team {
         font-family: Roboto;
@@ -271,7 +277,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*footer*/
 .footer {
         background-color:#2e2f42;
-        padding:100px 0;
+        padding: 100px 0;
 }
 .footer-logo {
         font-family: "Raleway", sans-serif;
@@ -281,6 +287,8 @@ h1, h2, h3, h4, h5, h6, p {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-bottom: 16px;
+        display: inline-block;
 }
 .studio-logo {
         color: #f4f4fd;
@@ -294,5 +302,6 @@ h1, h2, h3, h4, h5, h6, p {
         text-align: left;
         color: #F4F4FD;
         background-color: #2E2F42;
+        max-width: 264px;
 }
 /*end footer*/
