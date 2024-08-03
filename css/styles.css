@@ -11,6 +11,9 @@ ul, ol {
         margin: 0 auto;
         padding-left: 0;
 }
+img {
+        display: block;
+}
 a {
         text-decoration: none;
 }
@@ -126,10 +129,9 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #ffffff;
-        opacity: 0;
         cursor: pointer;
         display: block;
-        max-width: 169px;
+        min-width: 169px;
         border-radius: 4px;
         height: 56px;
         border: none;
@@ -191,6 +193,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .color {
         background-color: #FFFFFF;
+        border-radius: 0px 0px 4px 4px;
+
 }
 .team-ul {
         display: flex;
@@ -200,10 +204,7 @@ h1, h2, h3, h4, h5, h6, p {
         margin-bottom: 32px;
 }
 .container-team {
-        padding-top: 32px;
-        padding-left: 16px;
-        padding-bottom: 32px;
-        padding-right: 16px;
+        padding: 32px 0;
 }
 .team {
         font-family: Roboto;
@@ -214,7 +215,7 @@ h1, h2, h3, h4, h5, h6, p {
         text-transform: capitalize;
         text-align: center;
         color:#2E2F42;
-        margin-bottom: 120px;
+        margin-bottom: 72px;
 }
 .team-section {
         font-family: Roboto;
