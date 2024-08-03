@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .adress {
         font-style: normal;
-        margin-left: auto;;
+        margin-left: auto;
 }
 .adress-nav {
         display: block;
@@ -239,8 +239,8 @@ h1, h2, h3, h4, h5, h6, p {
 .portfolio-ul {
         display: flex;
         gap: 24px;
-        flex-wrap:wrap;
         row-gap: 48px;
+        flex-wrap:wrap;
 }
 .photo-portfolio {
         margin-bottom: 32px;
@@ -271,6 +271,7 @@ h1, h2, h3, h4, h5, h6, p {
 /*footer*/
 .footer {
         background-color:#2e2f42;
+        padding:100px 0;
 }
 .footer-logo {
         font-family: "Raleway", sans-serif;
